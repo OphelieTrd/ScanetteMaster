@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(_e) {
     
     /*Fonction ajoutée lors du TP*/
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./pwa-examples/js13kpwa/sw.js');
+    navigator.serviceWorker.register('./sw.js');
 };
 
 
