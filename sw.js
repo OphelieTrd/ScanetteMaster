@@ -1,8 +1,4 @@
 //**Fonction ajoutées lors du TP**//
-self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
-});
-
 var cacheName = 'jsPWA-v1';
 var appShellFiles = [
   './',
